@@ -1,10 +1,8 @@
 # Avatar Knowledge Distillation: Self-ensemble Teacher Paradigm with Uncertainty (AvatarKD)
 
-Official implementation of paper "Avatar Knowledge Distillation: Self-ensemble Teacher Paradigm with Uncertainty" (AvatarKD), ACM MM 2023.
+:fire: Official implementation of paper "Avatar Knowledge Distillation: Self-ensemble Teacher Paradigm with Uncertainty" (AvatarKD), ACM MM 2023.
 
 By Yuan Zhang, Weihua Chen, Yichen Lu, Tao Huang, Xiuyu Sun and Jian Cao.
-
-:fire: **AvatarKD: better and more general distillation ensemble method for dense prediction tasks (e.g., detection and segmentation).**
 
 <p align='center'>
 <img src='./assests/arch.png' alt='mask' width='700px'>
@@ -27,7 +25,8 @@ pip install -v -e .
 
 Download on [https://opendatalab.com](https://opendatalab.com)
 
-Note: if you want to distill on detection and segmentation, you should install mmdetection and mmsegmentation, respectively.
+> Note: if you want to distill on detection and segmentation, you should install mmdetection and mmsegmentation, respectively.
+>
 
 ## Reproducing our results
 
