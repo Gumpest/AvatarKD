@@ -25,14 +25,14 @@ pip install -v -e .
 
 Download on [https://opendatalab.com](https://opendatalab.com)
 
-> Note: if you want to distill on detection and segmentation, you should install mmdetection and mmsegmentation, respectively.
->
+> [!Note]
+> If you want to distill on detection and segmentation, you should install mmdetection and mmsegmentation, respectively.
 
 ## Reproducing our results
 
 ### Train students with Avatars
 
-This repo uses [MMRazor](https://github.com/open-mmlab/mmrazor) as the knowledge distillation toolkit. For environment setup, please see [mmrazor/README.md](mmrazor/README.md).
+This repo uses [MMRazor](https://github.com/open-mmlab/mmrazor) as the knowledge distillation toolkit. For environment setup, please see [docs/en/get_started.md](docs/en/get_started.md).
 
 **Train student:**  
 
